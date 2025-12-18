@@ -1,0 +1,113 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fceff4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ff7eb3;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  width: 90%;
+  max-width: 550px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+select, input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  background: #ff7eb3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background: #ff4f9a;
+}
+
+/* ÖNERİ ALANI */
+#result {
+  margin-top: 20px;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#result h3 {
+  color: #ff4f9a;
+}
+
+#result h4 {
+  margin-top: 15px;
+  color: #555;
+}
+
+#result ul {
+  padding-left: 20px;
+}
+
+#result li {
+  margin-bottom: 6px;
+}
+
+#result p {
+  background: #fceff4;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+#message {
+  margin-top: 10px;
+}
+/* KENAR GÖRSELLER */
+.side-img {
+  position: fixed;
+  top: 120px;
+  width: 150px;
+  opacity: 0.85;
+  z-index: -1;
+}
+
+.left-img {
+  left: 0;
+}
+
+.right-img {
+  right: 0;
+}
+
+/* MOBİLDE GİZLE */
+@media (max-width: 768px) {
+  .side-img {
+    display: none;
+  }
+}

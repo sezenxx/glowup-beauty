@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>GlowUp Beauty</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>GlowUp Beauty</h1>
+    <p>Akıllı Cilt Bakım Rehberi</p>
+  </header>
+
+  <section class="card">
+    <h2>Cilt Analizi</h2>
+
+    <label>Cilt Tipin:</label>
+    <select id="skinType">
+      <option value="">Seçiniz</option>
+      <option value="yagli">Yağlı</option>
+      <option value="kuru">Kuru</option>
+      <option value="karma">Karma</option>
+    </select>
+
+    <label>Cilt Problemi:</label>
+    <select id="problem">
+      <option value="">Seçiniz</option>
+      <option value="akne">Akne</option>
+      <option value="kuruluk">Kuruluk</option>
+      <option value="leke">Leke</option>
+    </select>
+
+    <button id="btn">Önerileri Göster</button>
+
+    <div id="result"></div>
+  </section>
+
+  <section class="card">
+    <h2>İletişim</h2>
+    <input type="text" id="name" placeholder="Ad Soyad">
+    <input type="email" id="email" placeholder="E-posta">
+    <button id="send">Gönder</button>
+    <p id="message"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<img src="left.png" class="side-img left-img">
+<img src="right.png" class="side-img right-img">
