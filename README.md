@@ -15,3 +15,4 @@ Bu projenin amacı, kullanıcıdan alınan bilgiler doğrultusunda (cilt tipi ve
 Kullanıcı cilt tipini ve cilt problemini seçtikten sonra “Önerileri Göster” butonuna tıkladığında, uygun bakım önerileri ekranda gösterilir.
 
 ## Dosya Yapısı
+.
